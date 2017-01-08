@@ -38,6 +38,7 @@ gem 'jbuilder', '~> 2.5'
 # added gems
 gem 'bootstrap-sass'
 gem 'react-rails', '~> 1.0'
+gem 'haml', '~> 4.0', '>= 4.0.7'
 
 
 
