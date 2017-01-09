@@ -58,4 +58,3 @@ var RecordForm = React.createClass({
     );
   }
 });
-
