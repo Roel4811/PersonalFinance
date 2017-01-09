@@ -50,7 +50,7 @@ var Records = React.createClass({
     return(
       <div className='records'>
         <h2 className='title'>
-          Records
+          Personal Finance App
         </h2>
         <div className='row'>
           <AmountBox type='success' amount={this.credits()} text='Credit' />
