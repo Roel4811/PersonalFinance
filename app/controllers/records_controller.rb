@@ -30,11 +30,11 @@ class RecordsController < ApplicationController
 
   private
 
-  def record_params
-    params.require(:record).permit(:title, :amount, :date)
-  end
+    def record_params
+      params.require(:record).permit(:title, :amount, :date)
+    end
 
-  def current_record
-    @record = Record.find(params[:id])
-  end
+    def current_record
+      @record = Record.find(params[:id])
+    end
 end
